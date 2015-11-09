@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		297C27B41BF0395A0026F73A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 297C27B31BF0395A0026F73A /* main.m */; };
+		297C27B71BF0395A0026F73A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 297C27B61BF0395A0026F73A /* AppDelegate.m */; };
+		297C27BA1BF0395A0026F73A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 297C27B91BF0395A0026F73A /* ViewController.m */; };
+		297C27BD1BF0395A0026F73A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297C27BB1BF0395A0026F73A /* Main.storyboard */; };
+		297C27BF1BF0395A0026F73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 297C27BE1BF0395A0026F73A /* Assets.xcassets */; };
+		297C27C21BF0395A0026F73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 297C27C01BF0395A0026F73A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		297C27AF1BF0395A0026F73A /* EltDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EltDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		297C27B31BF0395A0026F73A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		297C27B51BF0395A0026F73A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		297C27B61BF0395A0026F73A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		297C27B81BF0395A0026F73A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		297C27B91BF0395A0026F73A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		297C27BC1BF0395A0026F73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		297C27BE1BF0395A0026F73A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		297C27C11BF0395A0026F73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		297C27C31BF0395A0026F73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		297C27AC1BF0395A0026F73A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		297C27A61BF0395A0026F73A = {
+			isa = PBXGroup;
+			children = (
+				297C27B11BF0395A0026F73A /* EltDoctor */,
+				297C27B01BF0395A0026F73A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		297C27B01BF0395A0026F73A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				297C27AF1BF0395A0026F73A /* EltDoctor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		297C27B11BF0395A0026F73A /* EltDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				297C27B51BF0395A0026F73A /* AppDelegate.h */,
+				297C27B61BF0395A0026F73A /* AppDelegate.m */,
+				297C27B81BF0395A0026F73A /* ViewController.h */,
+				297C27B91BF0395A0026F73A /* ViewController.m */,
+				297C27BB1BF0395A0026F73A /* Main.storyboard */,
+				297C27BE1BF0395A0026F73A /* Assets.xcassets */,
+				297C27C01BF0395A0026F73A /* LaunchScreen.storyboard */,
+				297C27C31BF0395A0026F73A /* Info.plist */,
+				297C27B21BF0395A0026F73A /* Supporting Files */,
+			);
+			path = EltDoctor;
+			sourceTree = "<group>";
+		};
+		297C27B21BF0395A0026F73A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				297C27B31BF0395A0026F73A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		297C27AE1BF0395A0026F73A /* EltDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297C27C61BF0395A0026F73A /* Build configuration list for PBXNativeTarget "EltDoctor" */;
+			buildPhases = (
+				297C27AB1BF0395A0026F73A /* Sources */,
+				297C27AC1BF0395A0026F73A /* Frameworks */,
+				297C27AD1BF0395A0026F73A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EltDoctor;
+			productName = EltDoctor;
+			productReference = 297C27AF1BF0395A0026F73A /* EltDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		297C27A71BF0395A0026F73A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = elt;
+				TargetAttributes = {
+					297C27AE1BF0395A0026F73A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 297C27AA1BF0395A0026F73A /* Build configuration list for PBXProject "EltDoctor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 297C27A61BF0395A0026F73A;
+			productRefGroup = 297C27B01BF0395A0026F73A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				297C27AE1BF0395A0026F73A /* EltDoctor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		297C27AD1BF0395A0026F73A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297C27C21BF0395A0026F73A /* LaunchScreen.storyboard in Resources */,
+				297C27BF1BF0395A0026F73A /* Assets.xcassets in Resources */,
+				297C27BD1BF0395A0026F73A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		297C27AB1BF0395A0026F73A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				297C27BA1BF0395A0026F73A /* ViewController.m in Sources */,
+				297C27B71BF0395A0026F73A /* AppDelegate.m in Sources */,
+				297C27B41BF0395A0026F73A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		297C27BB1BF0395A0026F73A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297C27BC1BF0395A0026F73A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		297C27C01BF0395A0026F73A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				297C27C11BF0395A0026F73A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		297C27C41BF0395A0026F73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		297C27C51BF0395A0026F73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		297C27C71BF0395A0026F73A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EltDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltyl.dt.EltDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		297C27C81BF0395A0026F73A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EltDoctor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.eltyl.dt.EltDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		297C27AA1BF0395A0026F73A /* Build configuration list for PBXProject "EltDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297C27C41BF0395A0026F73A /* Debug */,
+				297C27C51BF0395A0026F73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		297C27C61BF0395A0026F73A /* Build configuration list for PBXNativeTarget "EltDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297C27C71BF0395A0026F73A /* Debug */,
+				297C27C81BF0395A0026F73A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 297C27A71BF0395A0026F73A /* Project object */;
+}
